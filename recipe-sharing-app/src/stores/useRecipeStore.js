@@ -6,7 +6,7 @@
 //   recipes: [],
 
 //   // The Actions (Functions to change data)
-//   addRecipe: (newRecipe) =>
+//   addRecipes: (newRecipe) =>
 //     set((state) => ({
 //       recipes: [...state.recipes, newRecipe],
 //     })),
