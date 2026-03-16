@@ -3,10 +3,11 @@ import { create } from "zustand";
 export const useRecipeStore = create((set) => ({
   recipes: [],
 
-  addRecipe: (recipe) =>
+  addRecipe: (newRecipe) =>
     set((state) => ({
-      recipes: [...state.recipes, recipe],
+      recipes: [...state.recipes, newRecipe],
     })),
+  setRecipe: (recipes) => set({ recipes }),
 
   deleteRecipe: (id) =>
     set((state) => ({
