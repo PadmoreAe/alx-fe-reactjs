@@ -1,11 +1,9 @@
+const Footer = () => {
+  return (
+    <div className="fixed bottom-0 w-full bg-black text-white text-center p-3">
+      © 2026 Recipe App
+    </div>
+  );
+};
 
-const Footer = ()=>{
-
-    return (
-      <footer>
-        <p>© 2023 Recipe</p>
-      </footer>
-    );
-}
-
-export default Footer
+export default Footer;

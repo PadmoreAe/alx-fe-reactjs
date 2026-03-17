@@ -1,11 +1,9 @@
+const Header = () => {
+  return (
+    <div className="fixed top-0 w-full bg-gray-50 text-gray-600 p-6 text-center text-xl font-bold shadow-md">
+      Recipe App
+    </div>
+  );
+};
 
-const Header = ()=>{
-
-    return (
-      <header>
-        <h1>Recipe App</h1>
-      </header>
-    );
-}
-
-export default Header
+export default Header;
